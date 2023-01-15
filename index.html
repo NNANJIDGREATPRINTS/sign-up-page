@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css" type="text/css">
+</head>
+<body>
+    <h1>Sign Up Here</h1>
+    <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+      
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+        <label for="maritalstatus">Marital Status:</label>
+        <select id="maritalstatus" name="maritalstatus">
+            <option value="">Please select</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+        </select>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+      
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="">Please select</option>
+          <option value="US">United States</option>
+          <option value="UK">United Kingdom</option>
+          <option value="CA">Canada</option>
+          <option value="NIG">Nigeria</option>
+          <option value="KEN">Kenya</option>
+          <option value="SEN">Senegal</option>
+          <option value="GER">Germany</option>
+        </select><br><br>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+      
+        <input type="submit" value="Submit">
+      </form>  
+</body>
+</html>
